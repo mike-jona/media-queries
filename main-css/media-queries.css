@@ -1,44 +1,85 @@
+
 html{
     margin:20px;
     font-family: sans-serif;
     overflow-x: hidden;
 }
 
-.page-wrapper{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+@media screen and (min-width: 576px) {
 
-.hidden-on-desktop {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
+    .page-wrapper {
+        display: flex;
+        flex-direction: column;
 
+    }
 
-.hidden-on-desktop a {
-    text-decoration: none;
-    background-color: rgb(214,254,254);
-    padding: 10px 100px;
-    border: 2px solid lightgrey ;
-    color: black;
-    overflow: hidden;
-}
-
-h1 {
-    font-size: 50px;
-    margin: 10px
-}
-ul {
-    padding: 0;
-}
-li {
-    padding: 15px 150px;
-    margin: 10px 0;
-    background-color: lightgray;
-    color: black;
-    overflow: hidden;
+    .hidden-on-desktop {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
 
 
+    .hidden-on-desktop a {
+        text-decoration: none;
+        background-color: rgb(214, 254, 254);
+        padding: 10px 100px;
+        border: 2px solid lightgrey;
+        color: black;
+        overflow: hidden;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    h1 {
+        font-size: 50px;
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+    }
+
+    nav {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    li {
+        padding: 15px 0;
+        margin: 10px 0;
+        background-color: lightgray;
+        color: black;
+        overflow: hidden;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    img {
+        width: 100%;
+        padding: 0;
+    }
+
+    footer {
+        display: flex;
+        justify-content: left;
+        align-items: start;
+    }
+
+    #social-media-links {
+
+    }
 }
+@media screen and (min-width: 992px){
+
+}
+
