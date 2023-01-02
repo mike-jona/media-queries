@@ -87,8 +87,8 @@ html{
 
     .page-wrapper {
         display: inline-block;
-        /*flex-direction: row;*/
-        /*flex-wrap: wrap;*/
+        margin: 0;
+        padding: 0;
         width: 100%;
     }
 
@@ -115,6 +115,7 @@ html{
     }
     img {
         margin: 10px;
+        padding: 0;
     }
     section{
         display: flex;
@@ -127,9 +128,10 @@ html{
     .main {
         display: inline-block;
         width: 65%;
-        margin: 0;
+        margin: 15px 0;
         height: 100%;
         top: 0;
+        margin-bottom: 50em;
 
     }
     h2{
@@ -140,6 +142,8 @@ html{
         width: 25%;
         margin-top: 20px;
         height: 100%;
+        float: right;
+        font-style: italic;
     }
 }
 
