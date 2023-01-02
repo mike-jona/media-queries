@@ -76,10 +76,42 @@ html{
     }
 
     #social-media-links {
-
     }
 }
 @media screen and (min-width: 992px){
 
+    .hidden-on-desktop{
+        display: none;
+        width: 75px;
+    }
+
+    .page-wrapper {
+        display: inline-block;
+    }
+
+    h1 {
+        margin: 10px;
+        display: inline-block;
+        max-width: 300px;
+
+    }
+
+    nav {
+        display: inline-block;
+        max-width: 300px;
+        float: right;
+    }
+    .nav-links {
+        display: flex;
+        flex-direction: row;
+        text-decoration: none;
+    }
+
+    li {
+        background-color: white;
+    }
+    img {
+        margin: 10px;
+    }
 }
 
