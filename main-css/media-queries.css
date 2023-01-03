@@ -72,7 +72,7 @@ html{
     footer {
         display: flex;
         justify-content: left;
-        align-items: start;
+        align-items: center;
     }
 
     footer {
@@ -83,6 +83,7 @@ html{
         width: 24px;
         height: 24px;
     }
+
 }
 @media screen and (min-width: 992px){
 
@@ -155,6 +156,8 @@ html{
     footer {
         display: flex;
         justify-content: space-between;
+
+
     }
     .icons {
         width: 48px;
