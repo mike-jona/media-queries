@@ -75,7 +75,13 @@ html{
         align-items: start;
     }
 
-    #social-media-links {
+    footer {
+        display: flex;
+        justify-content: space-between;
+    }
+    .icons {
+        width: 24px;
+        height: 24px;
     }
 }
 @media screen and (min-width: 992px){
@@ -145,5 +151,15 @@ html{
         float: right;
         font-style: italic;
     }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+    }
+    .icons {
+        width: 48px;
+        height: 48px;
+    }
 }
+
 
